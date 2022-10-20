@@ -129,7 +129,7 @@ Output:
 Put image later
 ```
 
-2. Create 'search_test.py'
+3. Create 'search_test.py'
 ```bash
 touch search_test.py
 ```
@@ -146,8 +146,20 @@ def test_search():
     assert ".py" in result.output
 ```
 
-3. Test 'search.py'
+4. Test 'search.py'
 ```bash
 make test
 ```
 Output
+
+## Formatting using balck
+```bash
+make format
+```
+5. Add, commit and push
+```bash
+git add * \
+    && git commit -m "Adding functionality" \
+    && git push \
+    && git status
+```

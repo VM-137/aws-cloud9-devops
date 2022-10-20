@@ -71,6 +71,7 @@ def hi():
 5. Add, commit and push
 ```bash
 git add * \
+    && git add .github
     && git commit -m "message" \
     && git push \
     && git status
@@ -152,13 +153,27 @@ make test
 ```
 Output
 
-## Formatting using balck
+5. Formatting using balck
 ```bash
 make format
 ```
+6. Add jobs to the github actions workflow in 'main.yml'
+```bash
+    - name: lint
+      run: |
+        make lint
+    - name: test
+      run: |
+        make test
+    - name: format
+      run: |
+        make format
+```
+
 5. Add, commit and push
 ```bash
 git add * \
+    && git add .github
     && git commit -m "Adding functionality" \
     && git push \
     && git status

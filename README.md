@@ -61,3 +61,8 @@ def hi():
 ```
 5. Add, commit and push
 ```bash
+git add * \
+    && git commit -m "message" \
+    && git push \
+    && git status
+```

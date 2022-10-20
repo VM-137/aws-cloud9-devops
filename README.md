@@ -1,7 +1,7 @@
 [![AWS Python 3.7.10](https://github.com/VM-137/aws-cloud9-devops/actions/workflows/main.yml/badge.svg)](https://github.com/VM-137/aws-cloud9-devops/actions/workflows/main.yml)
 
 # aws-cloud9-devops
-This is a Python for DevOps repo, an example of CD/CI using good practices.
+This is a Python for DevOps repo, an example of CI using good practices.
 I have used a EC2 instance on cloud9 AWS environment, git and github actions.<br>
 Libraries used: (click, pytest, pylint, black, pytest-cov)
 

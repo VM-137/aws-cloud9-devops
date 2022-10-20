@@ -5,7 +5,10 @@ This is a Python for DevOps repo, an example of CI using good practices.
 I have used a EC2 instance on cloud9 AWS environment, git and github actions.<br>
 Libraries used: (click, pytest, pylint, black, pytest-cov)
 
-
+### Work flow:
+* SetUp a basic structure and environment
+* SetUp Click options and simple test
+* Check Github actions
 
 
 ## SetUp basic structure and environment
